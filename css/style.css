@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.wrapper {
+  margin-inline: auto;
+  text-align: left;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+}
+.button {
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #e8eff2;
+}
+.orange {
+  background: #f16718;
+  color: white;
+}
+.first-section {
+  padding: 18px;
+}
+.first-section h1 {
+  color: #162542;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: black;
+}
+.first-section p {
+  color: #7b8bad;
+  font-size: 1rem;
+}
+.first-section .divisao {
+  display: flex;
+  margin-top: 30px;
+  gap: 28px;
+}
+.first-section .divisao p {
+  text-transform: uppercase;
+  color: #7b8bad;
+  font-size: 1rem;
+  font-weight: 700;
+}
